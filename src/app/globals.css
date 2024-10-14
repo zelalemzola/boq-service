@@ -84,7 +84,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 75vh;
+  /* height: 75vh; */
   border-radius: 12px;
   overflow: hidden;
   /* Ensure the pseudo-element stays within the container */

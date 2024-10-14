@@ -19,12 +19,12 @@ const Navbar = () => {
     <div className='py-2 px-5 flex items-center justify-between fixed w-[96%]'>
        <h1 className='text-2xl md:text-3xl font-bold text-primary'>Quantify.</h1>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4 text-lg">
           <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Home</Link>
           <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>About Us</Link>
           <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Contact Us</Link>
           <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Our Training</Link>
-          <Link href='/' className='text-white bg-primary  rounded-xl shadow-md hover:shadow-xl p-1'>Meet our Professionals</Link>
+          <Link href='/' className='text-white bg-primary  rounded-xl shadow-md hover:shadow-xl p-1 px-2'>Meet our Professionals</Link>
         </div>        
         <div className="lg:hidden flex">
            <Drawer>

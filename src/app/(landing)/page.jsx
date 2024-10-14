@@ -6,15 +6,15 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="md:px-4">
-        <BlurFade  inView >
-      <div className="hero relative w-[95%] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 mx-auto">
+        <BlurFade delay={0.25} inView >
+      <div className="hero relative w-[95%] h-[60vh] md:h-[75vh] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 mx-auto">
          
          <div className="hero-content flex flex-col gap-5 text-white z-40">
              <FadeText
         className="text-2xl md:text-4xl font-bold"
         direction="left"
         framerProps={{
-          show: { transition: { delay: 0.25 } },
+          show: { transition: { delay: 0.4 } },
         }}
         text="Calculate your Bill Of Quantities with confidence."
       />
@@ -22,7 +22,7 @@ export default function Home() {
         className="text-md"
         direction="left"
         framerProps={{
-          show: { transition: { delay: 0.35 } },
+          show: { transition: { delay: 0.45 } },
         }}
         text="Spend less time on spreadsheets and more time on the things that matter. Get a quicker, more accurate BOQ"
       />
