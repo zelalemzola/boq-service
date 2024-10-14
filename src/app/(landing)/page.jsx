@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="px-4">
+    <div className="md:px-4">
         <BlurFade  inView >
-      <div className="hero relative w-[95%] rounded-2xl shadow-2xl flex items-end p-10 mx-auto">
+      <div className="hero relative w-[95%] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 mx-auto">
          
          <div className="hero-content flex flex-col gap-5 text-white z-40">
              <FadeText

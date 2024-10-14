@@ -16,7 +16,7 @@ export default function LandingLayout({ children }) {
   return (
       <div className={`${inter.className} antialiased px-4 md:px-6`} >
         <Navbar/>
-       <div className="pt-[15%] md:pt-[6%] px-6">
+       <div className="pt-[15%] md:pt-[6%] px-4 md:px-6">
         {children}
         </div>
       
