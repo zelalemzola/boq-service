@@ -12,7 +12,7 @@ const AboutPage = () => {
          
          <div className="abouHero-content flex flex-col gap-5 text-white z-40">
              <FadeText
-        className="text-2xl md:text-4xl font-bold"
+        className="text-3xl md:text-5xl font-bold"
         direction="left"
         framerProps={{
           show: { transition: { delay: 0.8 } },
