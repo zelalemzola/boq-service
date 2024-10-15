@@ -50,7 +50,7 @@ export default function Home() {
         {/* <p className="text-md md:text-lg w-[95%] md:w-[80%] text-gray-500">BOQ Pro is an online platform that helps you get professional Bill of Quantities (BOQ) calculation. Whether you are a builder, developer or contractor, you can easily upload your construction plan,/ and get a detailed and accurate BOQ report in minutes.</p> */}
         <Link href='' className='p-2  text-white rounded-xl shadow-md hover:shadow-2xl bg-primary  w-fit  hover:bg-[#73b7c2]'>Get Started</Link>
         
-        <div className="flex flex-col md:flex-row  gap-4 md:gap-6">
+        <div className="flex flex-col md:flex-row  gap-6 md:gap-6 mt-[2%]">
         <div className="flex flex-col gap-4 md:w-[30%]">
           <BlurFade delay={0.85} inView='true'>
           <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
