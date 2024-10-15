@@ -53,14 +53,14 @@ export default function Home() {
         <div className="flex flex-col md:flex-row  gap-4 md:gap-6">
         <div className="flex flex-col gap-4 md:w-[30%]">
           <BlurFade delay={0.85} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl"/>
+          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
           <FadeText
             
         className="text-primary text-xl font-bold"
         direction="left"
         framerProps={{
-          show: { transition: { delay: 0.85 } },
+          show: { transition: { delay: 0.95 } },
           
         }}
         text="Easy to Use"
@@ -79,14 +79,14 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 md:w-[30%]">
                <BlurFade delay={0.95} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl"/>
+          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
           <FadeText
             
         className="text-primary text-xl font-bold"
         direction="left"
         framerProps={{
-          show: { transition: { delay: 0.95 } },
+          show: { transition: { delay: 1 } },
           
         }}
         text="Professional Service"
@@ -106,14 +106,14 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 md:w-[30%]">
                <BlurFade delay={1} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl"/>
+          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
            <FadeText
             
         className="text-primary text-xl font-bold"
         direction="left"
         framerProps={{
-          show: { transition: { delay: 1 } },
+          show: { transition: { delay: 1.1 } },
           
         }}
         text="Save Your Time"
@@ -133,14 +133,14 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 md:w-[30%]">
                <BlurFade delay={1.1} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl"/>
+          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
             <FadeText
             
         className="text-primary text-xl font-bold"
         direction="left"
         framerProps={{
-          show: { transition: { delay: 1.1 } },
+          show: { transition: { delay: 1.2 } },
           
         }}
         text="Accurate"
