@@ -51,7 +51,7 @@ export default function Home() {
           show: { transition: { delay: 1 } },
           
         }}
-        text="BOQ Pro is an online platform that helps you get professional Bill of Quantities (BOQ) calculation. Whether you are a builder, developer or contractor, you can easily upload your construction plan, and get a detailed and accurate BOQ report in minutes"
+        text="Quantify is an online platform that helps you get professional Bill of Quantities (BOQ) calculation. Whether you are a builder, developer or contractor, you can easily upload your construction plan, and get a detailed and accurate BOQ report in minutes"
       />
         {/* <p className="text-md md:text-lg w-[95%] md:w-[80%] text-gray-500">BOQ Pro is an online platform that helps you get professional Bill of Quantities (BOQ) calculation. Whether you are a builder, developer or contractor, you can easily upload your construction plan,/ and get a detailed and accurate BOQ report in minutes.</p> */}
         <Link href='' className='p-2  text-white rounded-xl shadow-md hover:shadow-2xl bg-primary  w-fit  hover:bg-[#73b7c2]'>Get Started</Link>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 md:w-[30%]">
                <BlurFade delay={0.95} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
+          <Image src='/2.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
           <FadeText
             
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 md:w-[30%]">
                <BlurFade delay={1} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
+          <Image src='/3.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
            <FadeText
             
@@ -139,7 +139,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 md:w-[30%]">
                <BlurFade delay={1.1} inView='true'>
-          <Image src='/1.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
+          <Image src='/4.jpg' alt='' width={100} height={100} className="object-cover w-[95%] rounded-xl shadow-xl"/>
           </BlurFade>
             <FadeText
             
@@ -192,7 +192,7 @@ export default function Home() {
        </div>
        
 
-       <div className="footer relative h-[55vh] md:h-[75vh] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 my-[5%] ">
+       <div className="footer relative h-[45vh] md:h-[75vh] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 my-[5%] ">
          
          <div className="footer-content flex flex-col gap-5 text-white z-40">
              <FadeText
