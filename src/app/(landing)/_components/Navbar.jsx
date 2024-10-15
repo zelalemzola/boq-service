@@ -16,7 +16,7 @@ import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   return (
-    <div className='py-2 px-5 flex items-center justify-between fixed w-[96%]'>
+    <div className='py-2 px-5 flex items-center justify-between fixed w-[96%] z-40 bg-white'>
        <h1 className='text-2xl md:text-3xl font-bold text-primary'>Quantify.</h1>
 
         <div className="hidden lg:flex items-center gap-4 text-lg">
