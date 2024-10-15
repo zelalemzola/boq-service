@@ -22,9 +22,9 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-4 text-lg">
           <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Home</Link>
           <Link href='/about' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>About Us</Link>
-          <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Contact Us</Link>
-          <Link href='/' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Our Training</Link>
-          <Link href='/' className='text-white bg-primary  rounded-xl shadow-md hover:shadow-xl p-1 px-2'>Meet our Professionals</Link>
+          <Link href='/contact' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Contact Us</Link>
+          <Link href='/training' className='text-primary hover:text-white hover:bg-primary p-1 hover:rounded-xl'>Our Training</Link>
+          <Link href='/workers' className='text-white bg-primary  rounded-xl shadow-md hover:shadow-xl p-1 px-2'>Meet our Professionals</Link>
         </div>        
         <div className="lg:hidden flex">
            <Drawer>
@@ -37,10 +37,10 @@ const Navbar = () => {
                </DrawerHeader>
                 <div className="flex flex-col items-center gap-4">
                    <Link href='/' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>Home</Link>
-                   <Link href='/' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>About Us</Link>
-                   <Link href='/' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>Contact Us</Link>
-                   <Link href='/' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>Our Training</Link>
-                   <Link href='/' className='text-white bg-primary  rounded-xl shadow-md hover:shadow-xl p-1'>Meet our Professionals</Link>
+                   <Link href='/about' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>About Us</Link>
+                   <Link href='/contact' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>Contact Us</Link>
+                   <Link href='/training' className='text-primary hover:text-white hover:bg-[#73b7c2] p-1 hover:rounded-xl'>Our Training</Link>
+                   <Link href='/workers' className='text-white bg-primary  rounded-xl shadow-md hover:shadow-xl p-1'>Meet our Professionals</Link>
                  </div>   
                <DrawerFooter>
                  <DrawerClose>
