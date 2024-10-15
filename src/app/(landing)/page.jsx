@@ -3,6 +3,12 @@ import { Button } from "@/components/ui/button";
 import { FadeText } from "@/components/ui/fade-text";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 export default function Home() {
   return (
@@ -160,8 +166,48 @@ export default function Home() {
         </div>
        </div>
        </div>
-
+       <div className="flex flex-col gap-5 mt-[2%] mb-[5%] ">
+        <h1 className="text-2xl md:text-4xl font-bold text-primary">How it Works</h1>
+         <Accordion type="single" collapsible>
+           <AccordionItem value="item-1">
+             <AccordionTrigger className='text-lg'>Upload your plan</AccordionTrigger>
+             <AccordionContent>
+               Easily upload your construction plan via  our Telegram handle. You can also provide additional project details and requirements.
+             </AccordionContent>
+           </AccordionItem>
+           <AccordionItem value="item-1">
+             <AccordionTrigger className='text-lg'>Review by Our Experts</AccordionTrigger>
+             <AccordionContent>
+               Our experts will review your plan and provide guidance throughout the process. They will also review your project details and requirements.
+             </AccordionContent>
+           </AccordionItem>
+           <AccordionItem value="item-1">
+             <AccordionTrigger className='text-lg'>Get Detailed BOQ Report</AccordionTrigger>
+             <AccordionContent>
+               We will provide you with a detailed and accurate Bill of Quantities(BOQ) report, including cost estimates, material requirements, labor costs, and other relevant information.
+             </AccordionContent>
+           </AccordionItem>
+         </Accordion>
+          <Link href='' className='p-2  text-white rounded-xl shadow-md hover:shadow-2xl bg-primary  w-fit  hover:bg-[#73b7c2] self-end'>Get Started</Link>
+       </div>
        
+
+       <div className="footer relative h-[55vh] md:h-[75vh] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 my-[5%] ">
+         
+         <div className="footer-content flex flex-col gap-5 text-white z-40">
+             <FadeText
+        className="text-3xl md:text-5xl font-bold text-center"
+        direction="left"
+        framerProps={{
+          show: { transition: { delay: 0.8 } },
+        }}
+        text="Join the thousands of builders who trust Quantify"
+      />
+            <Button className='px-3 py-3 rounded-full shadow-md hover:shadow-2xl bg-primary  w-fit text-lg hover:bg-[#73b7c2]'>Get Started</Button>
+         </div>
+         
+         
+      </div>
     </div>
   );
 }
