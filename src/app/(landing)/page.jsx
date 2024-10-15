@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="md:px-4">
 
-      <div className="hero relative h-[60vh] md:h-[75vh] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 ">
+      <div className="hero relative h-[55vh] md:h-[75vh] rounded-2xl shadow-2xl flex items-end p-6 md:p-10 ">
          
          <div className="hero-content flex flex-col gap-5 text-white z-40">
              <FadeText
@@ -35,7 +35,7 @@ export default function Home() {
          
       </div>
        
-       <div className="flex flex-col gap-5 my-[4%]">
+       <div className="flex flex-col gap-5 my-[6%] md:my-[5%]">
         <h1 className="text-2xl md:text-4xl text-primary font-bold">Why choose Quantify?</h1>
             <FadeText
             
